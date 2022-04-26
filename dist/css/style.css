@@ -957,6 +957,10 @@
     border-radius: 50%;
     background-color: var(--main-col);
     box-shadow: 0 0 0px 6px white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .task-block__delete-task-btn:hover, .add-task-btn:hover{
@@ -977,6 +981,10 @@
     border-radius: 10px;
     border: none;
     background-color: var(--main-col);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 /* модальное окно добавления задания */
@@ -1004,6 +1012,10 @@
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .modal-window__close-btn{
@@ -1016,6 +1028,10 @@
     margin-bottom: 20px;
     background-color: var(--main-col);
     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .modal-window__close-btn:hover{
