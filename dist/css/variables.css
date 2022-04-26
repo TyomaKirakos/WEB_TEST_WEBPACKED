@@ -1,0 +1,10 @@
+/* переменные */
+:root{
+    --main-col: #3880AC;
+    --light-blue: #54BCDC;
+    --dark-blue: #102B4C;
+    --soft-blue: #D2E9F6;
+    --gray-col: #777777;
+    --main-col-hover: rgb(34, 75, 100);
+    --light-blue-hover: rgb(66, 147, 172);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB_TEST</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__content container">
+            <a href="index.html" class="header__logo logo"><img src="img/Logo.svg" alt="WEB_TEST" class="logo__img"></a>
+            <div class="header__head-btns head-btns">
+                <p class="head-btn head-btns__logout-btn logout-btn">Выход</p>
+                <a href="profile.html" class="head-btn head-btns__profile-btn">Профиль</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__content container">
+            <div class="main__link-to-main-block link-to-main-block test-page-link-to-main">
+                <a href="index.html" class="link-to-main-block__link-to-main just-text">← На главную</a>
+                <p class="link-to-main-block__stopwatch test-stopwatch">
+                    <span class="test-stopwatch__minutes test-stopwatch__digits">0</span>:<span class="test-stopwatch__seconds test-stopwatch__digits">00</span>
+                </p>
+            </div>
+            <div class="main__link-to-main-block link-to-main-block link-block-without-stopwatch">
+                <a href="index.html" class="link-to-main-block__link-to-main just-text">← На главную</a>
+            </div>
+            <div class="main__test-page test-page">
+                <div class="test-page__tasks-block">
+
+                </div>
+                <!-- <div class="test-page__next-back-btns next-back-btns">
+                    <button class="next-back-btns__btn next-back-btns__back-btn btn">← Назад</button>
+                    <button class="next-back-btns__btn next-back-btns__next-btn btn">Вперёд →</button>
+                </div>
+                <div class="test-page__tasks-pagination tasks-pagination">
+                    <button class="tasks-pagination__task-number btn">1</button>
+                    <button class="tasks-pagination__task-number btn">2</button>
+                    <button class="tasks-pagination__task-number btn">3</button>
+                    <button class="tasks-pagination__task-number btn">4</button>
+                    <button class="tasks-pagination__task-number btn">5</button>
+                </div> -->
+                <button class="test-page__finish-btn">Завершить</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__content container">
+            <a href="index.html" class="footer__logo logo"><img src="img/FootLogo.svg" alt="WEB_TEST" class="logo__img"></a>
+            <div class="footer__developer-info developer-info">
+                <p class="developer-info__text footer-text">Разработано Temi4</p>
+                <img src="img/developerLogo.svg" alt="T4" class="developer-info__developer-logo">
+            </div>
+            <div class="footer__developer-contacts developer-contacts">
+                <p class="developer-contacts__text footer-text">Связь с разработчиком</p>
+                <div class="developer-contacts__developer-links developer-links">
+                    <a href="https://vk.com/tyoyoma" class="developer-links__developer-link">
+                        <img src="img/networks/vk.svg" alt="VK" class="developer-link__img">
+                    </a>
+                    <a href="https://www.instagram.com/artyom_ki" class="developer-links__developer-link">
+                        <img src="img/networks/instagram.svg" alt="instagram" class="developer-link__img">
+                    </a>
+                    <a href="https://github.com/TyomaKirakos" class="developer-links__developer-link">
+                        <img src="img/networks/GitHub.svg" alt="GitHub" class="developer-link__img">
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copyright footer-text">Все права защищены © 2022</p>
+        </div>
+    </footer>
+</body>
+</html>

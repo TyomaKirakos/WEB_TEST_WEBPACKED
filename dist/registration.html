@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <main class="log-reg-part">
+        <form class="log-reg-part__form form">
+            <h2 class="form__heading">Регистрация</h2>
+            <div class="form__inputs">
+                <label for="login-input" class="inputs__label">Логин</label>
+                <input type="text" required class="inputs__input login-input just-text" name="login-input" minlength="5" maxlength="20" title="Логин должен содержать от 5 до 20 символов и может состоять из латинских букв, цифр и нижнего подчёркивания" name="login-input" pattern="^\w+$">
+                <p class="submit-block__log-reg-error-text incorrect-log-error">Некорректный логин</p>
+            </div>
+            <div class="form__inputs">
+                <label for="password-input" class="inputs__label">Пароль</label>
+                <input type="password" required class="inputs__input password-input just-text" name="password-input" minlength="5" maxlength="40" title="Пароль должен содержать от 5 до 40 символов и не дожен содержать пробел" name="password-input" pattern="^[^\s]*$">
+                <p class="submit-block__log-reg-error-text incorrect-pswd-error">Некорректный пароль</p>
+            </div>
+            <div class="form__submit-block submit-block">
+                <button class="submit-block__submit-btn register-btn btn">Регистрация</button>
+                <p class="submit-block__additive-forwarding">Уже есть аккаунт? <a href="login.html" class="additive-forwarding__link">Вход</a></p>
+            </div>
+        </form>
+        <a href="index.html" class="log-reg-part__link-to-main">← На главную</a>
+    </main>
+</body>
+</html>
